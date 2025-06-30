@@ -51,17 +51,19 @@ daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social
 
 ## **Data Visualization**
 
-Histograms and boxplots were used to inspect distributions and outliers.
+**Histograms and boxplots were used to inspect distributions and outliers.**
 
 <img width="592" alt="Image" src="https://github.com/user-attachments/assets/af1aa4ef-fd88-4a0f-b4ed-60988c929216" />
 
 <img width="1117" alt="Image" src="https://github.com/user-attachments/assets/23e31d8c-e6f7-4ded-b9cd-bca26cb125e8" />
 
-Correlation heatmap confirmed linear relationships.
+
+**Correlation heatmap confirmed linear relationships.**
 
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
 
-Visual after scalling the data
+
+**Visual after scalling the data**
 
 <img width="1116" alt="Image" src="https://github.com/user-attachments/assets/5bf9a3e5-3bb9-47a1-b9d7-a05cb9dfdc95" />
 
