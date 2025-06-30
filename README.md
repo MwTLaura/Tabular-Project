@@ -20,10 +20,11 @@ Model performance is evaluated using RMSE and R². Linear Regression outperforms
 
 This repository contains all code and documentation necessary to reproduce the results, apply the models to new data, or extend the project with additional modeling approaches.
 
+
 ---
 
 ## **Summary of Work**
-### **Data**
+## **Data**
 
 **Type**: CSV file with 500 daily user entries.
 
@@ -37,7 +38,7 @@ daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social
 
 **Split**: 80% training, 20% testing.
 
- ### **Preprocessing**
+ ## **Preprocessing**
  
 - Removed outliers using IQR-based clipping (1.5×IQR).
 
@@ -45,9 +46,10 @@ daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social
 
 - No missing values were present.
 
+
 ---
 
-### **Data Visualization**
+## **Data Visualization**
 
 Histograms and boxplots were used to inspect distributions and outliers.
 
@@ -59,9 +61,10 @@ Correlation heatmap confirmed linear relationships.
 
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
 
+
 ---
 
-### **Problem Formulation**
+## **Problem Formulation**
 
 **Input:** 7 numerical behavioral and self-reported features
 
@@ -81,6 +84,7 @@ Correlation heatmap confirmed linear relationships.
 
 - R² (Coefficient of Determination)
 
+
 --- 
 
 ### **Training**
@@ -93,9 +97,12 @@ Correlation heatmap confirmed linear relationships.
 
 - Hardware: CPU only (no GPU required)
 
+
 ---
 
 ### **Performance Comparison**
+
+
 
 
 
