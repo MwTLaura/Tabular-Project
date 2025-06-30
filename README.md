@@ -39,25 +39,66 @@ daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social
 
  ### **Preprocessing**
  
-Removed outliers using IQR-based clipping (1.5×IQR).
+- Removed outliers using IQR-based clipping (1.5×IQR).
 
-Rescaled features using StandardScaler (Z-score normalization).
+- Rescaled features using StandardScaler (Z-score normalization).
 
-No missing values were present.
+- No missing values were present.
 
 ---
 
-## **Data Visualization**
+### **Data Visualization**
 
 Histograms and boxplots were used to inspect distributions and outliers.
 
 <img width="592" alt="Image" src="https://github.com/user-attachments/assets/af1aa4ef-fd88-4a0f-b4ed-60988c929216" />
 
-
+<img width="1117" alt="Image" src="https://github.com/user-attachments/assets/23e31d8c-e6f7-4ded-b9cd-bca26cb125e8" />
 
 Correlation heatmap confirmed linear relationships.
 
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
+
+---
+
+### **Problem Formulation**
+
+**Input:** 7 numerical behavioral and self-reported features
+
+**Output:** Continuous wellbeing score (regression)
+
+**Models:**
+
+- Linear Regression
+
+- Random Forest Regressor
+
+- XGBoost Regressor
+
+### **Evaluation Metrics:**
+
+- RMSE (Root Mean Squared Error)
+
+- R² (Coefficient of Determination)
+
+--- 
+
+### **Training**
+
+- Performed in Jupyter Notebooks using scikit-learn, numpy, pandas, and matplotlib
+
+- StandardScaler used on all features
+
+- Training time: Instant for LR, ~5–10s for RF/XGB
+
+- Hardware: CPU only (no GPU required)
+
+---
+
+### **Performance Comparison**
+
+
+
 
 
 
