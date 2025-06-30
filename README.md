@@ -108,6 +108,52 @@ daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social
 
 ### **Performance Comparison**
 
+<img width="246" alt="Image" src="https://github.com/user-attachments/assets/44e7d910-f125-48a7-8f85-0e64ad55b68e" />
+
+<img width="590" alt="Image" src="https://github.com/user-attachments/assets/f97bcec5-4040-4043-a3b4-f2487ea450bb" />
+
+---
+
+## **Conclusion**
+
+The project confirms that digital wellbeing can be accurately predicted from behavioral data using simple ML models.
+Linear Regression was the most effective, likely due to the strong linearity in the dataset after preprocessing.
+
+--- 
+
+## **Future Work**
+
+- Using a larger or more diverse dataset.
+
+- Exploring interaction terms and feature engineering.
+
+- Trying time-series.
+
+---
+
+## **How to Reproduce**
+
+**Software Setup**: Python 3.8+
+
+**Required packages:** pandas, numpy, matplotlib, scikit-learn
+
+
+---
+
+## **Overview of Repository**
+
+**Dgital_Wellbeing_Prediction.ipynb**: 	Main notebook containing the full pipeline: data preprocessing, visualization, modeling, and evaluation.
+**README.md**	:Project summary and documentation
+
+📥 Data Access
+Download the dataset here:
+👉 Kaggle Dataset – Mental Health and Digital Behavior
+
+Place the CSV file in your project folder before running the notebooks.
+
+📚 References
+Kaggle Dataset: Mental Health and Digital Behavior (2020–2024)
+
 
 
 
