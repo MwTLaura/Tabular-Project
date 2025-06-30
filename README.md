@@ -131,11 +131,14 @@ Linear Regression was the most effective, likely due to the strong linearity in 
 
 ---
 
-## **How to Reproduce**
+## **How to Reproduce Results**
 
-**Software Setup**: Python 3.8+
-
-**Required packages:** pandas, numpy, matplotlib, scikit-learn
+- Download the dataset from Kaggle: [Mental Health and Digital Behavior 2020–2024](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-digital-behavior-20202024)
+- Place the CSV file in your project folder before running the notebooks.
+- Open the notebook digital_wellbeing_prediction.ipynb
+- Install required packages: pandas, numpy, scikit-learn, matplotlib, xgboost
+- Run all cells from top to bottom.
+- The notebook performs preprocessing, trains and evaluates three regression models, and displays performance metrics and visualizations.
 
 
 ---
@@ -145,14 +148,10 @@ Linear Regression was the most effective, likely due to the strong linearity in 
 **Dgital_Wellbeing_Prediction.ipynb**: 	Main notebook containing the full pipeline: data preprocessing, visualization, modeling, and evaluation.
 **README.md**	:Project summary and documentation
 
-📥 Data Access
-Download the dataset here:
-👉 Kaggle Dataset – Mental Health and Digital Behavior
+---
 
-Place the CSV file in your project folder before running the notebooks.
-
-📚 References
-Kaggle Dataset: Mental Health and Digital Behavior (2020–2024)
+## **References**
+Kaggle Dataset: [Mental Health and Digital Behavior (2020–2024)](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-digital-behavior-20202024)
 
 
 
