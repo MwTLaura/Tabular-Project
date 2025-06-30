@@ -12,7 +12,7 @@ Dataset used: [Mental Health and Digital Behavior 2020–2024 on Kaggle](https:/
 ---
 
 ## **Overview:**
-This project aims to determine whether a person’s digital wellbeing score can be accurately predicted using data on their daily digital behavior and self-reported mental health indicators. The dataset used includes 500 entries, each representing a daily snapshot with features such as screen time, number of app switches, sleep hours, notification count, time spent on social media, mood level, and anxiety level, along with a calculated digital wellbeing score as the target variable.
+This project aims to determine whether a person’s digital wellbeing score can be accurately predicted using data on their daily digital behavior and self-reported mental health indicators. The dataset used includes 500 entries, each representing a daily snapshot with features such as daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social_media_time_min, focus_score, mood_score, anxiety_level, along with a calculated digital wellbeing score as the target variable.
 
 The machine learning pipeline involves several key steps: handling outliers using IQR-based clipping, rescaling features with StandardScaler, and conducting exploratory data analysis using histograms, boxplots, and correlation heatmaps to better understand feature relationships. The regression task is approached using three models: Linear Regression, Random Forest, and XGBoost.
 
