@@ -29,11 +29,9 @@ This repository contains all code and documentation necessary to reproduce the r
 
 **Input Features (7):**
 
-daily_screen_time_min, num_app_switches, sleep_hours,
-notification_count, social_media_time_min, mood_level,
-anxiety_level.
+daily_screen_time_min, num_app_switches, sleep_hours, notification_count, social_media_time_min, focus_score, mood_score, anxiety_level.
 
-**Target:** digital_wellbeing_score (numeric).
+**Target:** digital_wellbeing_score.
 
 **Size:** ~8 KB.
 
@@ -61,7 +59,7 @@ Correlation heatmap confirmed linear relationships.
 
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
 
-Most predictive features: screen_time, social_media_time, mood_level.
+
 
 
 
