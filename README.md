@@ -53,6 +53,10 @@ No missing values were present.
 
 Histograms and boxplots were used to inspect distributions and outliers.
 
+<img width="592" alt="Image" src="https://github.com/user-attachments/assets/af1aa4ef-fd88-4a0f-b4ed-60988c929216" />
+
+
+
 Correlation heatmap confirmed linear relationships.
 
 Most predictive features: screen_time, social_media_time, mood_level.
