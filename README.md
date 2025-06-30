@@ -61,6 +61,10 @@ Correlation heatmap confirmed linear relationships.
 
 <img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
 
+Visual after scalling the data
+
+<img width="1116" alt="Image" src="https://github.com/user-attachments/assets/5bf9a3e5-3bb9-47a1-b9d7-a05cb9dfdc95" />
+
 
 ---
 
