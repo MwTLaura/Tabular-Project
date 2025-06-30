@@ -59,6 +59,8 @@ Histograms and boxplots were used to inspect distributions and outliers.
 
 Correlation heatmap confirmed linear relationships.
 
+<img width="694" alt="Image" src="https://github.com/user-attachments/assets/30d8039a-0d6e-4d03-a9e3-888abaef79ef" /> 
+
 Most predictive features: screen_time, social_media_time, mood_level.
 
 
